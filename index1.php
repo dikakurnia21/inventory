@@ -1,4 +1,9 @@
 <?php
+if (empty($_SERVER['PATH_INFO'])) {
+    header('Location: /index.php/login');
+    exit;
+}
+
 /**
  * CodeIgniter
  *
