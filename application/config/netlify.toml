@@ -1,0 +1,8 @@
+[build]
+publish = "public"
+command = "php index.php"
+
+[[redirects]]
+from = "/*"
+to = "controllers/login.php"
+status = 200
