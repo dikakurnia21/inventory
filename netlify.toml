@@ -1,0 +1,6 @@
+[build]
+publish = "public"
+command = "cp -a src/. public/"
+
+[functions]
+directory = "functions"
